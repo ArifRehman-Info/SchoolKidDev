@@ -70,15 +70,15 @@ ul li:nth-child(3) a {
 ul li:nth-child(4) a {
     color: #5D58EF;
 }
+.btn-1{
+    background-color:orange ;
+}
 
 .btn-primary{
+display: flex;
 width: 12.3rem;
-
 border: none;
 color: #ffff;
-
-background-color:orange ;
-
 font-size: 1.25rem;
 
 padding: 0.6rem 3.75rem;
@@ -95,6 +95,54 @@ border-radius:0.75rem;
 
 /* nav bar section end */
 
+/* banner section start */
+
+.banner{
+justify-content:space-between;
+align-items: center;
+}
+.banner-textbox{
+width: 40rem;
+margin-right: 3.5rem;
+}
+
+
+.btn-primary2{
+display: flex;
+width: 12.3rem;
+border: none;
+color: #ffff;
+font-size: 1.25rem;
+justify-content: center;
+padding: 0.6rem 3rem;
+border-radius:0.75rem;
+
+}
+
+
+.btn-2{
+    background-color: black;
+}
+h1 span:first-child{
+color:orange;
+}
+h1 span:nth-child(2){
+    color: #111111;
+}
+h1 span:last-child{
+    color: #01ACFD;
+}
+
+
+.h1s{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.h1s p{
+font-size: 1.25rem;
+font-weight: 400;
+}
 
 /* mobile device responsive part start */
 @media screen and (max-width:576px) {
