@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+ .quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  } 
+main{
+    max-width:1160px;
+    margin: 0 auto;
+    
+}
+
+/* shared styles */
+
+.display-flex{
+    display: flex;
+}
+.fbold{
+    font-weight: bold;
+
+}
+.fSbold{
+    font-weight: 600;
+}
+
+
+
+/* start nav bar section */
+
+
+nav{
+    margin: 2rem auto;
+    justify-content: space-around;
+   align-items: center;
+}
+.logo-text{
+    align-items: center;
+    font-size: 2rem;
+    
+}
+
+li ,li>a{
+    text-decoration: none;
+    list-style: none;
+    font-size:1.25rem;
+    font-weight:500;
+    line-height: 32px;
+    margin: 0 2rem;
+   
+}
+ul li:nth-child(1) a {
+    color: orange;
+}
+ul li:nth-child(2) a {
+    color: #01ACFD;
+}
+ul li:nth-child(3) a {
+    color: #05D4DF;
+}
+ul li:nth-child(4) a {
+    color: #5D58EF;
+}
+
+.btn-primary{
+width: 12.3rem;
+
+border: none;
+color: #ffff;
+
+background-color:orange ;
+
+font-size: 1.25rem;
+
+padding: 0.6rem 3.75rem;
+border-radius:0.75rem;
+}
+
+.btn-primary:hover{
+    background-color: gold;
+} 
+
+.toggle-bar{
+    display: none;
+}
+
+/* nav bar section end */
+
+
+/* mobile device responsive part start */
+@media screen and (max-width:576px) {
+
+
+
+
+    /* navbar mobile section start */
+
+ nav{
+    margin: 0;
+    padding: 1rem;
+    justify-content: space-around;
+    border-bottom: 2px solid orange;
+ }
+    
+    .logo-side-text,
+    .nav-mid-container,
+    .btn-primary {
+    display: none;
+   }
+   .img-logo>img{
+    width:2.85rem;
+    height:2.85rem;
+   }
+   .toggle-bar{
+    display: flex;
+    flex-direction: column;
+    width: 1.85rem;
+    height: 1.85rem;
+    justify-content: space-around;
+    cursor:pointer;
+   }
+    .bar {
+    height: 5px;
+    width: 30px;
+    background-color: #000000;
+    border-radius: 5px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  /* navbar mobile section end */
+}
