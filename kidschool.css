@@ -342,10 +342,52 @@ padding: 1rem;
    
     
 }
-
-
 /* our stories section end */
 
+
+/* footer section start  */
+
+footer{
+    color: white;
+    background-color: #01ACFD;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 8rem 0;
+}
+.footer-logo{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: start;
+}
+.footer-logo h1{
+    font-weight: 700;
+  font-size: 2.625rem;
+}
+.logo-with-text{
+    max-width: 22rem;
+}
+.logo-with-text p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.about-school > ul > li > a{
+    color: white;
+    margin: 0;
+}
+
+.about-school{
+    text-align: start;
+  flex-direction: column;
+}
+.social-site{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer section end */
 
 
 
@@ -464,10 +506,53 @@ padding: 1rem;
     padding: 0.4rem;
   }
   .our-stories{
-    margin-bottom: 15rem;
+    margin-bottom: rem;
   }
 /* our stories section end */
 
+/* footer section start  */
 
+footer{
+    flex-direction: column;
+   padding-bottom: 20rem;
+}
+
+.footer h1{
+    font-size: 2rem;
+}
+.footer-logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    justify-content: start;
+    padding-left:1.9rem;
+}
+.logo-with-text p{
+    font-size: 1rem;
+    font-weight: 300;
+    padding-left:2.3rem;
+    padding-bottom: 2rem;
+
+}
+.about-school{
+ padding-left: 2rem;
+ padding-bottom: 2rem;
+ display: flex;
+ flex-direction: column;
+ justify-content:start;
+
+}
+.about-school > ul > li > a{
+    padding-right: 4rem;
+    
+}
+.keep-in-touch{
+    padding-left: 2rem;
+    
+}
+.abc{
+    padding-right: 20px;
+}
+/* footer section end */
 
 }
