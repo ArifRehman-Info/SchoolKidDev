@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -6,6 +7,7 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    box-sizing: border-box;
 }
 
  .quicksand{
@@ -153,12 +155,108 @@ font-size: 1.25rem;
 font-weight: 400;
 
 }
+/* banner section end */
+
+/* standard curriculum section start */
+.standard-curriculum{
+    background-image: url(./assets/bg.png);
+  
+}
+.standard-curriculum h1{
+
+    text-align: center;
+    font-size: 2.8rem;
+    color: #000000;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.cards{
+
+text-align: center;
+align-content:center ;
+gap:20px;
+justify-content: center;
+align-items: center;
+margin-bottom: 5rem;
+}
+
+.card{
+flex-direction: column;
+max-width: 23rem;
+height: 25rem;
+
+
+align-items: center;
+border-radius: 18px;
+
+
+box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 4px 14px rgba(139, 205, 17, 0.5);
+}
+
+.card:first-child{
+    border: 0.800px solid #5D58EF;
+    background:linear-gradient( #ffafbd ,#cbbab0 ) ;
+}
+.card:nth-child(2){
+    border: 0.800px solid #5D58EF;
+    background:linear-gradient(#ffd89b ,#7e93a1) ;
+}
+.card:nth-child(3){
+    border: 0.800px solid #5D58EF;
+    background:linear-gradient( #aa9c75,#d3bfc3 ) ;
+}
+.read-more{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.read-more1{
+color: rgb(237, 37, 15);
+}
+
+.read-more2{
+color: rgb(243, 206, 138);
+}
+
+
+.read-more3{
+color: rgb(189, 246, 234);
+}
+
+.card-title ,.card-description{
+padding: 1rem;
+}
+/* standard card section end */
+
+.slider{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 3.75rem;
+}
+.slider i:hover{
+    color: rgb(208, 29, 29);
+    background-color: #01ACFD;
+}
+/* standard card section and slider end */
+
+
+
+
+
 
 /* mobile device responsive part start */
 @media screen and (max-width:576px) {
 
 
-
+.slider{
+    display: none;
+}
 
     /* navbar mobile section start */
 
@@ -236,5 +334,14 @@ font-weight: 400;
 }
 /* banner mobile section end */
 
+/* card part start */
+.cards{
+    flex-direction: column;
+   padding-bottom: 5rem;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+/* card part start */
 
 }
