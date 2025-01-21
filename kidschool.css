@@ -348,9 +348,9 @@ padding: 1rem;
 /* footer section start  */
 
 footer{
+     
     color: white;
     background-color: #01ACFD;
-    justify-content: space-evenly;
     align-items: start;
     padding: 8rem 0;
 }
@@ -372,9 +372,11 @@ footer{
     font-size: 1.2rem;
     color: #fff;
 }
-.about-school > ul > li > a{
+.about-school > ul > a{
+    display: block;
     color: white;
-    margin: 0;
+    margin-bottom: 20px;
+    
 }
 
 .about-school{
@@ -550,8 +552,8 @@ footer{
     padding-left: 2rem;
     
 }
-.abc{
-    padding-right: 20px;
+#aboutx{
+   
 }
 /* footer section end */
 
